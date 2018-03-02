@@ -1,0 +1,4 @@
+use cdat_ivnv_intake;
+
+ALTER TABLE PAGE_MANIPULATION DROP PAGE_ID;
+

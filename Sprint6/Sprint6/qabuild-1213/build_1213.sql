@@ -1,0 +1,11 @@
+use cdat_qa_dbcatalog;
+
+INSERT INTO VERSION_CONTROL (APPLICATION_RELEASE, ENV, SCRIPT_NAME, DEPLOY_DT, DEPLY_BY)
+ values ('Sprint6','Qa','Sprint6_que_1208',now(),'Sanjiv');
+
+INSERT INTO VERSION_CONTROL (APPLICATION_RELEASE, ENV, SCRIPT_NAME, DEPLOY_DT, DEPLY_BY)
+ values ('Sprint6','Qa','Sprint6_que_1212',now(),'Sanjiv');
+
+INSERT INTO VERSION_CONTROL (APPLICATION_RELEASE, ENV, SCRIPT_NAME, DEPLOY_DT, DEPLY_BY)
+ values ('Sprint6','Qa','Database Reset QA',now(),'Sanjiv');
+

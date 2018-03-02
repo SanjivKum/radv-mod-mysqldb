@@ -1,0 +1,22 @@
+INSERT INTO rfrnc_org_type
+(
+  ORG_TYPE_ID,
+  ORG_TYPE_NAME,
+  ORG_TYPE_DESC
+)
+VALUES
+(
+  1,
+  'MRRC',
+  ''
+),
+(
+  2,
+  'Plan',
+  ''
+),
+(
+  3,
+  'CMS',
+  ''
+) ON DUPLICATE KEY UPDATE ORG_TYPE_NAME = VALUES(ORG_TYPE_NAME), ORG_TYPE_DESC = VALUES(ORG_TYPE_DESC);
